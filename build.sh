@@ -1,0 +1,1 @@
+clang `xcode-select --print-path`/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib -rpath `xcode-select --print-path`/Toolchains/XcodeDefault.xctoolchain/usr/lib -I ../clang/include sandbox.c
